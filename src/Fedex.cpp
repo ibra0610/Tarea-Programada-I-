@@ -1,12 +1,12 @@
 #include "fedex.h"
 
 FedEx::FedEx(float _peso, float _distancia){
-    this-> peso = _peso; 
-    this -> distancia = _distancia; 
+    this->peso = _peso; 
+    this->distancia = _distancia; 
 
 } 
 
-float FedEx::FedEx(){
+float FedEx::CalculoCosto(){
     float costo_total =20; 
 
     if(this->distancia>500){
