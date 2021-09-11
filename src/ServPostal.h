@@ -2,16 +2,15 @@
 #define  SERVPOSTAL_H
 
 #include "envio.h" 
-#include <string> 
 
 class ServicioPostal : public Envio {
     
     float peso; 
-    std::string clase; 
-    int distancia; 
+    int clase; 
+    float distancia; 
 
     public: 
-        ServicioPostal(float, string, int); 
+        ServicioPostal(float, int, float); 
         virtual float CalculoCosto(); 
 
 

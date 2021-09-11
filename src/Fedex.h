@@ -6,10 +6,10 @@
 
 class FedEx : public Envio {
     float peso; 
-    int distancia; 
+    float distancia; 
 
     public: 
-        FedEx(float, int); 
+        FedEx(float, float); 
         virtual float CalculoCosto(); 
 
 }; 
